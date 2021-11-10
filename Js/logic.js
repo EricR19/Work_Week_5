@@ -16,4 +16,4 @@ function upperCase(str) {
   }
   return `El texto no contiene mayusculas  ${"'" + str + "'"}`;
 }
-console.log(upperCase("b q b"));
+console.log(upperCase("b q b das "));
