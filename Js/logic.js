@@ -16,4 +16,15 @@ function upperCase(str) {
   }
   return `El texto no contiene mayusculas  ${"'" + str + "'"}`;
 }
-console.log(upperCase("b q"));
+console.log(upperCase("ñ"));
+
+function palindromo(text) {
+  text = text.toLowerCase();
+  let normalText = text;
+  var normalizeText = normalText
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+  console.log(normalizeText);
+}
+
+palindromo("Esto es una prueba");
