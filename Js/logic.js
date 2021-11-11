@@ -28,7 +28,6 @@ function palindromo(text) {
 
     normalizeText = normalizeText.replace(/\s/g, "");
     arrayString = normalizeText.split('');
-    console.log(arrayString);
     let reverseText = arrayString.reverse();
 
     if (normalizeText == reverseText.toString().replace(/,/g, "")) {
