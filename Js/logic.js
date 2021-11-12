@@ -37,4 +37,4 @@ function palindromo(text) {
     }
 }
 
-palindromo("Aman a Panamá");
+palindromo("Allí ves Sevillas");
