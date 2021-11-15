@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Css/style.css" />
-    <title>Document</title>
-</head>
+    <title>Tarea Semana 5</title>
+  </head>
 
-<body>
+  <body>
     <div class="main-wrap">
-        <div class="lateral">
-            <div class="menu">
-                <div class="option">
-                    <div class="button">
-                        <a id="instru1" onclick="">Instruction 1</a>
-                    </div>
-                </div>
-                <div class="option">
-                    <div class="button">
-                        <a id="instru2" onclick="">Instruction 2</a>
-                    </div>
-                </div>
-                <div class="option">
-                    <div class="button">
-                        <a id="instru3" onclick="">Instruction 3</a>
-                    </div>
-                </div>
+      <div class="lateral">
+        <div class="menu">
+          <div class="option">
+            <div class="button" onclick="createIsEven()">
+              Números Pares o Impares
             </div>
+          </div>
+          <div class="option">
+            <div class="button" onclick="upperCases()">
+              Texto con Mayúsculas
+            </div>
+          </div>
+          <div class="option">
+            <div class="button" onclick="palindromoText()">Palíndromos</div>
+          </div>
         </div>
-        <div class="main-container"></div>
+      </div>
+      <div class="main-container">
+        <div class="tittle"><h1>Actividad de Codificación –Semana 5</h1></div>
+        <div class="info-container">
+          <div class="tittle-1" id="tittle-1"></div>
+          <div class="info" id="info"></div>
+          <div class="input" id="input"></div>
+          <div class="button-get-info" id="button-info"></div>
+          <div class="display-info" id="display-info"></div>
+        </div>
+      </div>
     </div>
     <script src="Js/logic.js"></script>
-</body>
-
+  </body>
 </html>
